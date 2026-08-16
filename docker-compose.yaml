@@ -1,0 +1,6 @@
+services:
+ web:
+ image: YOUR_DOCKERHUB_USERNAME/medicare-app:latest
+ ports:
+ - "3000:80"
+ restart: unless-stopped
