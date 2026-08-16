@@ -4,7 +4,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'kiranahmed/medicare-deployed'
+        IMAGE_NAME = 'kiranahmed/medicare-jenkins'
         IMAGE_TAG  = "v1.${BUILD_NUMBER}"
         SERVER_IP  = 'ubuntu@13.63.159.48'
     }
